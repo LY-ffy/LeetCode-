@@ -1,5 +1,5 @@
-The fist version：
-  int minimumDifference(int* nums, int numsSize, int k) {
+//The fist version(C)：
+int minimumDifference(int* nums, int numsSize, int k) {
     for(int i=0;i<numsSize;i++){
         int a=i;
         for(int j=i;j<numsSize;j++){
